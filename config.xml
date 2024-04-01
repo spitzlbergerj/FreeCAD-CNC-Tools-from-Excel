@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Konfigurationen für das Umwandeln einer Excel Datei in FreeCAD CNC Tool Dateien -->
+<config>
+    <prefix>sjj_</prefix>
+    <excel_file_path>D:/OneDrives/OneDrive - La Gondola Barocca/_PCBüroLustheim/Anwendungsdaten/Snapmaker/CNC-Werkzeug.xlsx</excel_file_path>
+    <output_directory>D:/OneDrives/OneDrive - La Gondola Barocca/_PCBüroLustheim/Anwendungsdaten/Snapmaker/CNC-Tools</output_directory>
+    <freecad_tool_shapes_path>C:/Users/Sepp/AppData/Local/Programs/FreeCAD 0.21/Mod/Path/Tools/Shape</freecad_tool_shapes_path>
+    <type_shape_mapping>
+		<!-- type bitte nur mit Kleinbuchstaben füllen! -->
+		<!-- shape bitte ohne die Dateierweiterung .fcstd angeben -->
+        <mapping type="v" shape="v-bit" />
+        <mapping type="flat" shape="endmill" />
+        <mapping type="ball" shape="ballend" />
+    </type_shape_mapping>
+    <library_version>1</library_version>
+</config>
